@@ -5,23 +5,98 @@
     <meta http-equiv="content-type" content="text/html; charset= UTF-8" />
     <link href="~/Content/reset.css" rel="stylesheet" />
     <link href="~/Content/mainStyle.css" rel="stylesheet" />
+    <link href="~/Content/menu.css" rel="stylesheet" />
+    <link href="~/Content/menu_2.css" rel="stylesheet" />
+    <script src="~/Scripts/jquery-3.3.1.js"></script>
+    <script src="~/Scripts/menu_js.js"></script>
 </head>
-    <body>
-        <section>
-            <header>
-                <foto style="background-image: url(../../images/demo-2-bg.jpg)"></foto>
-                <h1>Шапка сайта</h1>
-            </header>
-            <content>
-                @RenderBody()
-                <p>Тело сайта</p>
-                <p>Тело сайта</p>
-                <p>Тело сайта</p>
-                <p>Тело сайта</p>
-            </content>
-            <footer>
-                <h3>Подвал сайта</h3>
-            </footer>
-        </section>
-    </body>
+<body>
+    <section>
+        <div class="open">
+            <span class="cls"></span>
+            <span>
+                <ul class="sub-menu ">
+                    <li>
+                        <a href="#about" title="about"> About</a>
+                    </li>
+                    <li>
+                        <a href="#skills" title="skills"> Skills</a>
+                    </li>
+                    <li>
+                        <a href="#jobs" title="jobs"> Jobs</a>
+                    </li>
+                    <li>
+                        <a href="#contact" title="contact"> Contact</a>
+                    </li>
+                </ul>
+            </span>
+            <span class="cls"></span>
+        </div>
+        <header>
+            <logo></logo>
+        </header>
+        <hr 3px width=500px align="centre">
+        <menu_2>
+            <ul>
+                <li>
+                    <a href="#">
+                        Home
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        About
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Service
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        Contact
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </a>
+                </li>
+            </ul>
+        </menu_2>
+        <hr 3px width=300px align="centre">
+        <content>
+            @RenderBody()
+            <p>Тело сайта</p>
+            <p>Тело сайта</p>
+            <p>Тело сайта</p>
+            <p>Тело сайта</p>
+            <p>Тело сайта</p>
+            <p>Тело сайта</p>
+            <p>Тело сайта</p>
+            <p>Тело сайта</p>
+            <p>Тело сайта</p>
+            <p>Тело сайта</p>
+            <p>Тело сайта</p>
+            <p>Тело сайта</p>
+        </content>
+        <footer>
+            <h3>Подвал сайта</h3>
+        </footer>
+    </section>
+</body>
 </html>
+
+
