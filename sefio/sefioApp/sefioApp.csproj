@@ -141,6 +141,7 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="Content\backstars.css" />
     <Content Include="Content\menu_2.css" />
     <Content Include="Content\particles-js.css" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -160,6 +161,7 @@
     <Content Include="Content\Site.css" />
     <Content Include="images\demo-2-bg.jpg" />
     <Content Include="images\xWvHy-Ae4u4.jpg" />
+    <Content Include="Scripts\backstars.js" />
     <Content Include="Scripts\menu_js.js" />
     <Content Include="Scripts\particles-js.js" />
     <Content Include="Scripts\bootstrap.bundle.js" />
@@ -206,6 +208,7 @@
     <Content Include="Scripts\umd\popper-utils.min.js" />
     <Content Include="Scripts\umd\popper.js" />
     <Content Include="Scripts\umd\popper.min.js" />
+    <Content Include="Scripts\utils.js" />
     <Content Include="Web.config" />
     <Content Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
